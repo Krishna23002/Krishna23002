@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+<!-- Add this in your <head> section -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="comic-relief-regular">
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="#about" class="logo comic-relief-bold">KK</a>
+            </div>
+            <div class="nav-center">
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+            </div>
+            <div class="nav-right">
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Dummy sections for scrolling -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <img src="profile.png" alt="Profile Photo" class="profile-img" />
+            <h2>About Me</h2>
+            <p>Hi! I'm Krishnakumar Kashi Arjun, a passionate Computer Science student with a strong interest in web
+                development, design, and building impactful digital experiences. I love turning ideas into real,
+                user-friendly websites.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <img src="wheel.png" alt="Wheel of Fortune" class="project-img" />
+          <div class="project-details">
+            <h3>Wheel of Fortune Game</h3>
+            <p>I built this interactive game for our college fest using HTML, CSS, and JavaScript. The wheel spins and randomly selects a prize — it was a fun challenge and a crowd favorite!</p>
+            <a href="https://harishkumar59.github.io/wheel3/" target="_blank" class="project-link">View Project</a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="education" class="education-section">
+        <h2>Education</h2>
+        <div class="education-timeline">
+          <div class="education-item">
+            <div class="marker"></div>
+            <h3>SSC - 2021</h3>
+            <p>St. Elias High School, Khar</p>
+          </div>
+          <!-- <div class="route"></div> -->
+          <div class="education-item">
+            <div class="marker"></div>
+            <h3>HSC - 2023</h3>
+            <p>R.D. National College, Bandra West</p>
+          </div>
+          <!-- <div class="route"></div> -->
+          <div class="education-item">
+            <div class="marker"></div>
+            <h3>BSc Computer Science - Ongoing</h3>
+            <p>R.D. National College, Bandra West</p>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <section id="experience" class="experience-section">
+        <div class="experience-left">
+          <h2>Experience</h2>
+          <p>As a fresher, I may not have professional experience yet — but I bring a strong passion for learning, a collaborative mindset, and a commitment to delivering my best in every opportunity I take on. I'm always eager to grow and contribute meaningfully to any team I join.</p>
+        </div>
+        <div class="experience-right">
+          <div class="collaboration-heading">
+            <h2>Let's Collaborate!</h2>
+            <p>Feel free to reach out with your thoughts or ideas. I'm always excited to work on new projects and connect with like-minded individuals.</p>
+          </div>
+          <form class="experience-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="thoughts" rows="4" placeholder="Your thoughts..." required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+      
+          
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+91 702 133 7420</p>
+          </div>
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p>arjunkrishnakumar90@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <h3>Social Media</h3>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/krishnakumar-arjun-7b2b59362/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+              <li><a href="https://twitter.com/your-profile" target="_blank">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Krishnakumar Kashi Arjun. All rights reserved.</p>
+        </div>
+      </section>
+      
+    <script src="script.js"></script>
+    <!-- Add this just before </body> -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
